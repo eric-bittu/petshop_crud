@@ -40,13 +40,13 @@ npx nodemon server.js
 ```
 
 ### Estrutura do projeto
-backend/
-├── public/           # Frontend estático
-│   ├── js/           # Scripts JavaScript
-│   ├── style.css          # Estilos
-│   └── *.html        # Páginas
-├── routes/           # Definição de rotas
-├── uploads/          # Armazenamento de imagens
-├── .env              # Variáveis de ambiente
-├── server.js         # Ponto de entrada
-└── package.json      # Dependências
+backend/ <br>
+├── public/          <br>
+│   ├── js/            <br>
+│   ├── style.css          <br>
+│   └── *.html        <br>
+├── routes/           <br>
+├── uploads/          <br>
+├── .env              <br>
+├── server.js         <br>
+└── package.json       <br>
