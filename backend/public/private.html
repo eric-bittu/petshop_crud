@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Agendamento de Pet</h1>
+        <form id="uploadForm">
+            <input type="text" name="name" id="name" placeholder="Nome do Pet" required>
+            <input type="text" name="raca" id="raca" placeholder="Raça">
+            <input type="datetime-local" name="data_agendamento" required>
+            <input type="text" name="descricao" id="descricao" placeholder="Observações" required>
+            <input type="file" name="image" accept="image/*" required >
+            <input type="hidden" name="imageId" id="imageId">
+            <button type="submit">Enviar Imagem</button>
+        </form>    
+    </div>
+    <h2>Imagens Enviadas</h2>
+    <div id="gallery"></div>
+   <button onclick="logout()">Logout</button> 
+    <script src="js/script.js"></script>
+</body>
+</html>
